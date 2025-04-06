@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Navbar from "../components/homepage/navbar";
+import "../globals.css";
+import Navbar from "@/components/homepage/navbar";
 import Image from "next/image";
 import Footer from "@/components/homepage/Footer";
 import { ClientQueryProvider } from "@/providers/clientQueryProvider";

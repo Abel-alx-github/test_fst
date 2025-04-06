@@ -25,7 +25,6 @@ const ContactUs = () => {
 
   const onSubmit = (data: FormData) => {
     console.log(data);
-    // Handle form submission logic here (e.g., send data to an API)
   };
 
   return (

@@ -96,7 +96,7 @@ const SigninForm = () => {
           </form>
           <div className="flex justify-between mt-4 text-sm text-gray-500">
            <p>
-            Don't have account?{" "}
+            Don&apos;t have account?{" "}
             <Link href="/signup" className="text-blue-950 underline">
               Sign Up
             </Link>

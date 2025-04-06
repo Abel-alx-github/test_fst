@@ -1,19 +1,15 @@
 "use client";
-// app/components/Navbar.tsx
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import Image from 'next/image';
-// import useAuth from '../hooks/useAuth'; // Assuming you have this hook
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
-//   const { user, logout } = useAuth(); // Assuming useAuth returns user and logout function
   const user = false; // Placeholder for user authentication state
     const logout = () => {
-        // Placeholder for logout function
         console.log('User logged out');
     };
   const navItems = [
